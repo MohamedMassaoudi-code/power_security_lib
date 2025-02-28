@@ -45,7 +45,7 @@ python
 Copy
 from power_security_lib import PowerInfrastructureAnalyzer, run_full_assessment
 
-# Quick assessment with all steps
+# **Quick assessment with all steps**
 ```
 analyzer = run_full_assessment(
     location_name="Stanford University, California, USA",
@@ -54,7 +54,7 @@ analyzer = run_full_assessment(
     save_report="output/stanford_report.html",
     report_format="html"
 )
-Step-by-Step Usage
+**Step-by-Step Usage**
 ```
 from power_security_lib import PowerInfrastructureAnalyzer
 
@@ -71,28 +71,18 @@ analyzer.develop_security_strategy()
 analyzer.visualize_infrastructure(save_path="output/mit_map.png")
 report = analyzer.generate_report(output_format="markdown", save_path="output/mit_report.md")
 ```
-Project Structure
 
-power_security_lib/
-├── power_security_lib
-│   ├── __init__.py          # Package initialization file
-│   ├── analyzer.py          # Contains the PowerInfrastructureAnalyzer class
-│   └── runner.py            # Contains the run_full_assessment function
-├── tests/                   # (Optional) Unit tests
-│   └── test_basic.py
-├── README.md
-├── LICENSE
-└── setup.py
 
-#Contributing
+#**Contributing**
 Contributions are welcome! If you'd like to contribute to Power Security Lib, please fork the repository and submit a pull request. For more details on packaging and publishing Python projects, please see these reputable sources:
 
 #Packaging Python Projects
 Real Python: Publishing a Python Package
-License
+
+**License**
 This project is licensed under the terms of the MIT License.
 
-#Contact
+#**Contact**
 For questions, feedback, or further information, please open an issue on the repository or contact the project maintainer.
 
 ---
