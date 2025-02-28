@@ -31,7 +31,7 @@ Alternatively, if you have a requirements.txt file listing the dependencies, run
 ```
 pip install -r requirements.txt
 ```
-Dependencies
+# **Dependencies**
 OSMnx
 GeoPandas
 Shapely
@@ -54,7 +54,7 @@ analyzer = run_full_assessment(
     save_report="output/stanford_report.html",
     report_format="html"
 )
-**Step-by-Step Usage**
+#**Step-by-Step Usage**
 ```
 from power_security_lib import PowerInfrastructureAnalyzer
 
@@ -76,10 +76,10 @@ report = analyzer.generate_report(output_format="markdown", save_path="output/mi
 #**Contributing**
 Contributions are welcome! If you'd like to contribute to Power Security Lib, please fork the repository and submit a pull request. For more details on packaging and publishing Python projects, please see these reputable sources:
 
-#Packaging Python Projects
+#**Packaging Python Projects**
 Real Python: Publishing a Python Package
 
-**License**
+#**License**
 This project is licensed under the terms of the MIT License.
 
 #**Contact**
