@@ -25,11 +25,12 @@ Power Security Lib requires Python 3.7 or higher. You can install the library an
 
 ```bash
 pip install .
+```
 Alternatively, if you have a requirements.txt file listing the dependencies, run:
 
-bash
-Copy
+```
 pip install -r requirements.txt
+```
 Dependencies
 OSMnx
 GeoPandas
@@ -45,6 +46,7 @@ Copy
 from power_security_lib import PowerInfrastructureAnalyzer, run_full_assessment
 
 # Quick assessment with all steps
+```
 analyzer = run_full_assessment(
     location_name="Stanford University, California, USA",
     buffer_distance=1.5,
@@ -53,15 +55,14 @@ analyzer = run_full_assessment(
     report_format="html"
 )
 Step-by-Step Usage
-python
-Copy
+```
 from power_security_lib import PowerInfrastructureAnalyzer
 
 analyzer = PowerInfrastructureAnalyzer(
     place_name="MIT, Cambridge, Massachusetts",
     buffer_distance=2.0
 )
-
+```
 # Run individual steps for finer control
 analyzer.retrieve_infrastructure_data()
 analyzer.identify_critical_assets()
@@ -69,9 +70,9 @@ analyzer.assess_vulnerabilities()
 analyzer.develop_security_strategy()
 analyzer.visualize_infrastructure(save_path="output/mit_map.png")
 report = analyzer.generate_report(output_format="markdown", save_path="output/mit_report.md")
+```
 Project Structure
-graphql
-Copy
+
 power_security_lib/
 ├── power_security_lib
 │   ├── __init__.py          # Package initialization file
