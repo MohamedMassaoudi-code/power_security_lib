@@ -83,20 +83,18 @@ power_security_lib/
 ├── README.md
 ├── LICENSE
 └── setup.py
-Contributing
+
+#Contributing
 Contributions are welcome! If you'd like to contribute to Power Security Lib, please fork the repository and submit a pull request. For more details on packaging and publishing Python projects, please see these reputable sources:
 
-Packaging Python Projects
+#Packaging Python Projects
 Real Python: Publishing a Python Package
 License
 This project is licensed under the terms of the MIT License.
 
-Contact
+#Contact
 For questions, feedback, or further information, please open an issue on the repository or contact the project maintainer.
-
-yaml
-Copy
 
 ---
 
-This **README.md** file provides a comprehensive overview of your library, explains installation a
+This **README.md** file provides a comprehensive overview of your library, explains installation and usage, describes the project structure, and includes links to reputable sources for further guidance on packaging and publishing Python projects.
