@@ -88,3 +88,6 @@ For questions, feedback, or further information, please open an issue on the rep
 ---
 
 This **README.md** file provides a comprehensive overview of your library, explains installation and usage, describes the project structure, and includes links to reputable sources for further guidance on packaging and publishing Python projects.
+
+  © **Copyright Under MIT Liscence** 2025-2026  by Resilient Energy Systems Lab (RESLab), Texas A&M Engineering Experiment Station (TEES), and Texas A&M University.
+
