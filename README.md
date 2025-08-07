@@ -1,6 +1,6 @@
-# Power Security Lib
+# InfraGuardian
 
-**Power Security Lib** is a Python library designed to assess the security of power infrastructure for any geographic location. It provides functionality to retrieve infrastructure data, identify critical assets, perform detailed vulnerability assessments, and generate comprehensive security recommendations with cost estimates. The library also offers visualization and reporting tools to help users quickly understand the security posture of a given area.
+**InfraGuardian** is a Python library designed to assess the security of power infrastructure for any geographic location. It provides functionality to retrieve infrastructure data, identify critical assets, perform detailed vulnerability assessments, and generate comprehensive security recommendations with cost estimates. The library also offers visualization and reporting tools to help users quickly understand the security posture of a given area.
 
 ## Features
 
@@ -21,7 +21,7 @@
 
 ## Installation
 
-Power Security Lib requires Python 3.7 or higher. You can install the library and its dependencies using `pip`:
+InfraGuardian requires Python 3.7 or higher. You can install the library and its dependencies using `pip`:
 
 ```bash
 pip install .
@@ -38,7 +38,7 @@ Shapely
 Matplotlib
 Pandas
 Usage
-You can use Power Security Lib in two ways: a one-line full assessment or step-by-step for more control.
+You can use InfraGuardian in two ways: a one-line full assessment or step-by-step for more control.
 
 One-Line Assessment
 python
@@ -74,7 +74,7 @@ report = analyzer.generate_report(output_format="markdown", save_path="output/mi
 
 
 #**Contributing**
-Contributions are welcome! If you'd like to contribute to Power Security Lib, please fork the repository and submit a pull request. For more details on packaging and publishing Python projects, please see these reputable sources:
+Contributions are welcome! If you'd like to contribute to InfraGuardian, please fork the repository and submit a pull request. For more details on packaging and publishing Python projects, please see these reputable sources:
 
 #**Packaging Python Projects**
 Real Python: Publishing a Python Package
@@ -90,4 +90,5 @@ For questions, feedback, or further information, please open an issue on the rep
 This **README.md** file provides a comprehensive overview of your library, explains installation and usage, describes the project structure, and includes links to reputable sources for further guidance on packaging and publishing Python projects.
 
   © **Copyright Under MIT Liscence** 2025-2026  by Resilient Energy Systems Lab (RESLab), Texas A&M Engineering Experiment Station (TEES), and Texas A&M University.
+
 
